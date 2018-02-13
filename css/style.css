@@ -180,7 +180,7 @@ textarea {
   font-family: arial;
   font-size: 16px;
 }
-.firstRow {
+/*.firstRow {
 display: flex;
 justify-content:center;
 text-align: center;
@@ -194,21 +194,41 @@ text-align: center;
   display: flex;
   justify-content: center;
   text-align: center;
-}
+}*/
 .pix {
   margin-right: 20px;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 .rectangle {
   width:200px;
-  height: 30px;
+  height: 25px;
   background: #4aaaa5;
   z-index: 1;
-  position: absolute;
+  position: inherit;
+  margin-top: -20px;
+  margin-bottom: 5px;
 }
 .secondP {
   color: white;
   font-size: 14px;
   font-family: arial;
-  margin-top: 8px;
+  margin-top: 5px;
+}
+.firstcol {
+display: flex;
+flex-direction: column;
+
+}
+.secondcol {
+display: flex;
+flex-direction: column;
+
+}
+.projects {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 500px;
+  width: 650px;
+  margin-bottom: 1000px;
 }
