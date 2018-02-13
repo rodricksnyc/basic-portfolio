@@ -170,8 +170,6 @@ input::placeholder {
   font-family: arial;
     font-size: 16px;
 }
-
-
 textarea {
   color: lightgray;
   border: 1px solid lightgray;
@@ -181,4 +179,36 @@ textarea {
   color: lightgray;
   font-family: arial;
   font-size: 16px;
+}
+.firstRow {
+display: flex;
+justify-content:center;
+text-align: center;
+}
+.secondRow {
+  display: flex;
+  justify-content:center;
+  text-align: center;
+}
+.thirdRow {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.pix {
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+.rectangle {
+  width:200px;
+  height: 30px;
+  background: #4aaaa5;
+  z-index: 1;
+  position: absolute;
+}
+.secondP {
+  color: white;
+  font-size: 14px;
+  font-family: arial;
+  margin-top: 8px;
 }
