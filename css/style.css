@@ -1,8 +1,8 @@
 body {
-width: 1150px;
+  width: 1150px;
 }
 .container  {
-    max-width: 1150px;
+  max-width: 1150px;
 }
 
 h1 {
@@ -60,11 +60,9 @@ a {
   border-right: none;
 }
 .boxes {
-display: flex;
-justify-content:space-between;
-
+  display: flex;
+  justify-content:space-between;
 }
-
 .about {
   width: 100%;
   background: lightgray;
@@ -74,13 +72,13 @@ justify-content:space-between;
   margin-left: 20px;
 }
 .white {
-width: 650px;
-height: 500px;
-margin-top: 40px;
-margin-right: 80px;
-background: white;
-display: flex;
-flex-direction: column;
+  width: 650px;
+  height: 500px;
+  margin-top: 40px;
+  margin-right: 80px;
+  background: white;
+  display: flex;
+  flex-direction: column;
 }
 .whiteTwo {
   background: white;
@@ -91,15 +89,16 @@ flex-direction: column;
 }
 
 h2 {
-font-family:'Georgia';
-color: #4aaaa5;
-font-size: 22px;
-margin-left: 20px;
+  margin-top: 20px;
+  font-family:'Georgia';
+  color: #4aaaa5;
+  font-size: 22px;
+  margin-left: 20px;
 }
- hr {
-margin-left: 20px;
-margin-right: 20px;
-color: pink;
+hr {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 0px;
 }
 
 h3 {
@@ -108,14 +107,14 @@ h3 {
   font-size: 18px;
   /*margin-left: 20px;*/
   display: flex;
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 .cat {
   display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
 }
 h4 {
   font-family: arial;
@@ -127,13 +126,13 @@ h4 {
   margin-right: 2px;
 }
 .myPic {
-margin-bottom: 220px;
-margin-left: 10px;
+  margin-bottom: 220px;
+  margin-left: 10px;
 }
 .social {
   display: flex;
-  justify-content:space-around;
-  align-items: center;
+  justify-content: space-between;
+  margin-left: 10px;
 }
 .bottomLine {
   width: 100%;
@@ -142,10 +141,44 @@ margin-left: 10px;
   margin-left: 20px;
 }
 footer {
-background: gray;
-width: 100%;
-height: 60px;
-color: white;
-text-align: center;
+  background: gray;
+  width: 100%;
+  height: 60px;
+  color: white;
+  text-align: center;
+  margin-left: 20px;
+  font-family: arial;
+  font-size: 14px;
+}
+.form {
+color: lightgray;
+font-family: arial;
 margin-left: 20px;
+font-size: 19px;
+}
+input {
+  color: lightgray;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  height: 30px;
+  width: 600px;
+  color: lightgray;
+  font-family: arial;
+}
+input::placeholder {
+  color: lightgray;
+  font-family: arial;
+    font-size: 16px;
+}
+
+
+textarea {
+  color: lightgray;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  height: 280px;
+  width: 600px;
+  color: lightgray;
+  font-family: arial;
+  font-size: 16px;
 }
